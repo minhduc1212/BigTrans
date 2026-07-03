@@ -1,4 +1,4 @@
-from deep_translator import GoogleTranslator, MicrosoftTranslator
+from deep_translator_pip import GoogleTranslator, MicrosoftTranslator
 
 # Khởi tạo translator dịch từ tự động nhận diện sang Tiếng Việt
 translator = GoogleTranslator(source='auto', target='vi')

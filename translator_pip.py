@@ -14,7 +14,7 @@ text_to_translate = "我在这里得到了紫色水晶"
 try:
     result = ts.translate_text(
         text_to_translate, 
-        translator='youdao', 
+        translator='deepl', 
         from_language='zh-CHS', 
         to_language='vi'
     )
